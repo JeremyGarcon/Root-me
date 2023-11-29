@@ -1,0 +1,6 @@
+import base64
+
+encoded_credentials = "Y29uZmk6ZGVudGlhbA=="
+decoded_credentials = base64.b64decode(encoded_credentials).decode('utf-8')
+
+print(decoded_credentials)
